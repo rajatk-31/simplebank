@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"log"
 
+	_ "github.com/lib/pq"
 	"github.com/rajatk-31/simplebank/api"
 	db "github.com/rajatk-31/simplebank/db/sqlc"
 )
